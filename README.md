@@ -197,6 +197,16 @@ exampleURL1
 exampleURL1
 23
 
+# Task 11:
+*You want to find the index where the substring "192.168.243.140" starts within the string contained in the variable ip_addresses. Write the Python code to find and display the starting index.*
+> Code:
+```python
+ip_addresses = "192.168.140.81, 192.168.109.50, 192.168.243.140"
+print(ip_addresses.index("192.168.243.140"))
+
+> Output:
+32
+
 ## Observations:
 - Strings are instrumental in storing important, security-related data, such as device IDs and URLs.
 - String concatenation allows you to easily combine information in a string with the information stored in another string.
