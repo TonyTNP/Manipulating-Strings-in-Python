@@ -170,7 +170,7 @@ print(url[ind:ind+4])
 .com
 
 # Task 10:
-*Finally, extract the website name from the given URL using string slicing and the ind variable that you defined earlier. In the given URL, the website name is "exampleURL1"*
+*Finally, extract the website name from the given URL using string slicing and the ind variable that you defined earlier. In the given URL, the website name is "exampleURL1". What the length of the extracted slice?*
 
 > Code:
 > Assign `url` to a specific URL
@@ -184,10 +184,18 @@ ind = url.index(".com")
 > Extract the website name in `url` and display it
 ```python
 print(url[8:ind])
-
+> other ways of displaying this:
+```python
+print(url[-15:-4])
+print(url[8:19])
+> length of the slice:
+```python
+print(len(url))
 > output:
 exampleURL1
-
+exampleURL1
+exampleURL1
+23
 
 ## Observations:
 - Strings are instrumental in storing important, security-related data, such as device IDs and URLs.
